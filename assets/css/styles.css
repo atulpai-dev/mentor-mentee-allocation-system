@@ -4,7 +4,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: flex-start;
     align-items: center;
     background-color: #f4f4f4;
@@ -34,6 +34,7 @@ body {
     padding: 20px;
     text-align: center;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .button {
@@ -45,7 +46,7 @@ body {
     cursor: pointer;
     font-size: 18px;
     margin: 20px 0;
-    position: center;
+    position: relative;
     top: 10px;
 }
 
